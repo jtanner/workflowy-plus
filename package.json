@@ -1,0 +1,11 @@
+{
+  "name": "workflowy-plus",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
