@@ -2,7 +2,8 @@
   * These commands should be in console.js and manifest.json
   */
 const commands = {
-  focusParent: (tabId) => chrome.tabs.sendMessage(tabId, {command: "focusParent"})
+  focusParent: (tabId) => chrome.tabs.sendMessage(tabId, {command: "focusParent"}),
+  openFirstLinkInNotes: (tabId) => chrome.tabs.sendMessage(tabId, {command: "openFirstLinkInNotes"}),
 }
 
 // listener for custom commands

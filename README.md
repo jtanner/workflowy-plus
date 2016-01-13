@@ -11,4 +11,5 @@ Running `make` will build the extension into the `dist` directory.
 * Finally, still on the Extensions page, click on "Keyboard shortcuts" and set your desired shortcuts for the **Workflowy Plus** section
 
   My shortcuts (on a Mac):
-    * _Focus the parent of the focused node._ `Command+Ctrl+P`
+    * _Focus parent node_ `Command+Ctrl+p`
+    * _Click first link in notes_ `Command+j`
